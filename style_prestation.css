@@ -1,0 +1,30 @@
+/**************************************************************/
+/**************************************************************/
+/**************************************************************/
+
+.body_page2 {
+    background: url(cover_overlay.png) no-repeat center/100% 100%,url(ValetBTPLogo_trans.jpg) no-repeat center/cover;
+    margin: 0;
+    font-family: Arial;
+    line-height: 1.5;
+  }
+  
+.titre_presation{
+  color: white;
+  font-size: 24px;
+  margin-top: -40px;
+}
+
+.div_prestations{
+  color: white;
+  font-size: 25px;
+  height: 100%;
+  margin-bottom: -25px;
+}
+
+
+
+.div_video{
+  height: 200%;
+  width: 200%;
+}

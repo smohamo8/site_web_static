@@ -1,0 +1,191 @@
+ /**************************************/
+        /* Creation de variable : Tres utile **/
+        :root { 
+            --color1: #113075;
+            --color2: #f9b200;
+        }
+
+        /* Dans cette partie on met tout le code css de notre projet */
+        body {
+            margin:  0px;
+            padding: 0px;
+            font-family: Arial;
+        }
+
+         /******************************************************/
+        /******************************************************/
+        /** Partie logo**/
+        div.logo{
+            height: 120px;
+            width: auto;
+            position: relative;
+            padding-left: 60px;
+            display: flex;
+        }
+
+        /******************************************************/
+        /******************************************************/
+        /** Partie menu du projet **/
+        div.header_projet {
+            background-color: var(--color1);
+            height: 120px;
+            margin: 0px;
+            display: flex;
+            position: relative;
+            align-items: center;
+            padding: 10px
+        } 
+
+        nav ul li {
+            list-style-type: none; /* On supprime les bouttons */
+            display: inline-block;
+            padding: 8px;  /*espacement entre les titres*/
+            margin-left: 70px;
+
+        }
+
+        ul li a {
+            color: var(--color2);
+            letter-spacing: 0.1rem;
+        }
+        ul li a:hover{
+            color: #FFFFFF;
+            text-decoration: underline;
+        } 
+
+        .menu li{
+            float: left;
+            padding: 35;
+        }
+
+        .menu li a {
+            text-decoration: none;
+        }
+        
+       /*************************************************************/
+       /*************************************************************/
+
+       .slider-nav {
+        margin-top: 0px;
+        width: 125%; /* Ajustez la largeur selon vos besoins */
+        height: 270px; /* Ajustez la hauteur selon vos besoins */
+        overflow: hidden;  /*Masque les images en dehors de la zone visible */
+        padding: -10px;
+      }
+
+      .slider-nav img {
+        width: 20%; 
+        height: auto; 
+        display: inline-block; 
+      }
+      
+      /* Animation de défilement */
+      @keyframes slide {
+        0% {
+          transform: translateX(0);
+        }
+        100% {
+          transform: translateX(-100%);
+        }
+      }
+      
+      .slider-nav img {
+        animation: slide 1000s linear infinite; 
+      }
+      
+    /**************************************************************/
+    /**************************************************************/
+    div.cover {
+      background-color: #8BA1BB;
+      font-family: Arial;
+      margin-top: -30px;
+      height: auto;
+        } 
+        
+    div.contenu{
+      background-color: white;
+      margin: 40px 8px 40px 8px;
+      margin-left: 150px;
+      margin-right: 150px;
+      padding: 0px 8px 20px 8px;
+      box-shadow: 0px 0px 8px 8px rgba(0, 0, 0, 0.1);
+      overflow: visible;
+      padding: 10px;
+      color :var(--color1);
+    }
+
+    .Texte_AP{
+      margin-top: 10px;
+      margin-bottom: -2px;
+      margin-left: 90px;
+      margin-right: 90px;
+      text-align: justify;
+    }
+
+    /**************************************************************/
+    /**************************************************************/
+    footer {
+      background-color: #1e1e1e;
+      color: #f9b200;
+      padding: 10px;
+      display: flex;
+      position: relative;
+      align-items: center;
+      width: 100%;
+    }
+  
+    .newsletter {
+      margin-bottom: 20px;
+      margin-left: 50px;
+    }
+    
+    .newsletter h3 {
+      font-size: 18px;
+      margin-top: 10px;
+      margin-bottom: 15px;
+    }
+    
+    .newsletter input[type="email"] {
+      width: 100%;
+      padding: 8px;
+      border: none;
+      border-radius: 5px;
+      margin-bottom: 10px;
+    }
+    
+    .newsletter input[type="submit"] {
+      padding: 8px 15px;
+      background-color: #ff8c00;
+      color: #fff;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+    
+    .medias-sociaux h3 {
+      font-size: 18px;
+      margin-top: 10px;
+      margin-bottom: 15px;
+      margin-left: 100px;
+    }
+    
+    .medias-sociaux ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      margin-left: 100px;
+    }
+    
+    .medias-sociaux li {
+      margin-bottom: 5px;
+    }
+    
+    .medias-sociaux a {
+      text-decoration: none;
+      color: #fff;
+    }
+    
+    .medias-sociaux a:hover {
+      text-decoration: underline;
+    }
+    
