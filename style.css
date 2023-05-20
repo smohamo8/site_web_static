@@ -16,10 +16,10 @@
         /******************************************************/
         /** Partie logo**/
         div.logo{
-            height: 120px;
+            height: 100px;
             width: auto;
             position: relative;
-            padding-left: 60px;
+            /*padding-left: 60px;*/
             display: flex;
         }
 
@@ -28,19 +28,20 @@
         /** Partie menu du projet **/
         div.header_projet {
             background-color: var(--color1);
-            height: 120px;
-            margin: 0px;
+            height: 0%;
+            margin: 0%;
             display: flex;
             position: relative;
             align-items: center;
-            padding: 10px
+            padding: 1%
         } 
 
         nav ul li {
             list-style-type: none; /* On supprime les bouttons */
             display: inline-block;
             padding: 8px;  /*espacement entre les titres*/
-            margin-left: 70px;
+            /*margin-left: 70px;*/
+            margin-left: 10px;
 
         }
 
@@ -54,7 +55,7 @@
         } 
 
         .menu li{
-            float: left;
+            /*float: left;*/
             padding: 35;
         }
 
@@ -68,9 +69,9 @@
        .slider-nav {
         margin-top: 0px;
         width: 125%; /* Ajustez la largeur selon vos besoins */
-        height: 270px; /* Ajustez la hauteur selon vos besoins */
+        height: 100%; /* Ajustez la hauteur selon vos besoins */
         overflow: hidden;  /*Masque les images en dehors de la zone visible */
-        padding: -10px;
+        padding: -10%;
       }
 
       .slider-nav img {
@@ -98,15 +99,13 @@
     div.cover {
       background-color: #8BA1BB;
       font-family: Arial;
-      margin-top: -30px;
+      margin-top: -1%;
       height: auto;
         } 
         
     div.contenu{
       background-color: white;
-      margin: 40px 8px 40px 8px;
-      margin-left: 150px;
-      margin-right: 150px;
+      margin: 1% 2% 1% 2%;
       padding: 0px 8px 20px 8px;
       box-shadow: 0px 0px 8px 8px rgba(0, 0, 0, 0.1);
       overflow: visible;
@@ -115,10 +114,10 @@
     }
 
     .Texte_AP{
-      margin-top: 10px;
-      margin-bottom: -2px;
-      margin-left: 90px;
-      margin-right: 90px;
+      margin-top: 1%;
+      margin-bottom: 0.5%;
+      margin-left: 3%;
+      margin-right: 3%;
       text-align: justify;
     }
 
@@ -135,8 +134,8 @@
     }
   
     .newsletter {
-      margin-bottom: 20px;
-      margin-left: 50px;
+      margin-bottom: -0.4%;
+      margin-left: 5%;
     }
     
     .newsletter h3 {
