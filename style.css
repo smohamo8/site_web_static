@@ -10,6 +10,7 @@
             margin:  0px;
             padding: 0px;
             font-family: Arial;
+            overflow-x: hidden;
         }
 
          /******************************************************/
@@ -38,7 +39,7 @@
         nav ul li {
             list-style-type: none; /* On supprime les bouttons */
             display: inline-block;
-            padding: 8px;  /*espacement entre les titres*/
+            padding: 0%;  /*espacement entre les titres*/
             margin-left: 10px;
 
         }
