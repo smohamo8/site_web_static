@@ -19,7 +19,6 @@
             height: 100px;
             width: auto;
             position: relative;
-            /*padding-left: 60px;*/
             display: flex;
         }
 
@@ -40,7 +39,6 @@
             list-style-type: none; /* On supprime les bouttons */
             display: inline-block;
             padding: 8px;  /*espacement entre les titres*/
-            /*margin-left: 70px;*/
             margin-left: 10px;
 
         }
@@ -68,10 +66,10 @@
 
        .slider-nav {
         margin-top: 0px;
-        width: 125%; /* Ajustez la largeur selon vos besoins */
-        height: 100%; /* Ajustez la hauteur selon vos besoins */
+        width: 90%; /* Ajustez la largeur selon vos besoins */
+        height: 90%; /* Ajustez la hauteur selon vos besoins */
         overflow: hidden;  /*Masque les images en dehors de la zone visible */
-        padding: -10%;
+        padding: 0% 15% 0% 15%;
       }
 
       .slider-nav img {
@@ -126,7 +124,7 @@
     footer {
       background-color: #1e1e1e;
       color: #f9b200;
-      padding: 10px;
+      padding: 0% 0% 5% 0%;
       display: flex;
       position: relative;
       align-items: center;
